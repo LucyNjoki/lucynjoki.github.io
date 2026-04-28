@@ -52,7 +52,7 @@ for (i in seq_len(nrow(posts))) {
   # ✨ emoji added here
   cat("### ✨ ", title_i, "\n\n")
 
-  cat("📅 *", year_i, "*\n\n")
+  cat("📅 ", year_i, "*\n\n")
 
   cat(desc_i, "\n\n")
 
