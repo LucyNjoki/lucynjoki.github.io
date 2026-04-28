@@ -23,9 +23,9 @@ Beyond my technical work, I am an active contributor to the R community. I co-or
 
 This website brings together different aspects of my work:
 
-- 📄 **Publications** — research outputs including journal articles and conference papers  
-- 🎤 **Talks** — conference presentations, workshops, and community talks  
-- 📚 **Courses** — training and teaching materials in R and statistics  
-- 💻 **Fun R Things** — small projects, experiments, and creative coding work  
-- 🎨 **Stats Comics** — visual explanations of statistical ideas  
-- ✍🏽 **Microblogs** — short posts with practical R tips and insights  
+- 📄 **Publications**: research outputs including journal articles and conference papers  
+- 🎤 **Talks**: conference presentations, workshops, and community talks  
+- 📚 **Courses**: training and teaching materials in R and statistics  
+- 💻 **Fun R Things**: small projects, experiments, and creative coding work  
+- 🎨 **Stats Comics**: visual explanations of statistical ideas  
+- ✍🏿 **Microblogs**: short posts with practical R tips and insights  
