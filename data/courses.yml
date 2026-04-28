@@ -1,0 +1,17 @@
+- title: "Data Manipulation with data.table in R"
+  role: "Instructor"
+  year: 2023
+  description: "Hands-on workshop covering fast data manipulation with data.table."
+  resources:
+    slides: "https://github.com/LucyNjoki/R-LadiesAbuja_Data-Manipulation-with-data.table-in-R"
+    recording: "https://youtu.be/3jp8cCV6oMg"
+  tags: ["data.table","workshop"]
+
+- title: "Statistics with R - A Beginner's Perspective"
+  role: "Instructor"
+  year: 2022
+  description: "Intro to foundational statistics."
+  resources:
+    slides: "https://tccafrica.pubpub.org/pub/h8e4xebo/release/1"
+    recording: "https://tccafrica.pubpub.org/pub/h8e4xebo/release/1"
+  tags: ["biostatistics","short-course"]

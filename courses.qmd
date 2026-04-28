@@ -1,0 +1,50 @@
+---
+title: Courses & Training
+format: html
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis
+
+library(yaml)
+
+courses <- yaml::read_yaml("data/courses.yml")
+
+for (course in courses) {
+
+  cat("### ", course$title, "\n\n")
+
+  meta <- course$role
+  if (!is.null(course$year)) {
+    meta <- paste(meta, course$year, sep = " • ")
+  }
+
+  cat(meta, "\n\n")
+
+  if (!is.null(course$description)) {
+    cat(course$description, "\n\n")
+  }
+
+  if (!is.null(course$resources)) {
+    for (nm in names(course$resources)) {
+      url <- course$resources[[nm]]
+      if (!is.null(url) && nzchar(url)) {
+        cat("[", toupper(nm), "](", url, ")", sep = "")
+        cat(" | ")
+      }
+    }
+    cat("\n\n")
+  }
+
+  if (!is.null(course$tags)) {
+    cat("*Tags:* ", paste(course$tags, collapse = ", "), "\n\n")
+  }
+
+  cat("---\n\n")
+}
+```
+
+

@@ -1,0 +1,46 @@
+project:
+  type: website
+
+website:
+  title: "Lucy Njoki Njuki"
+  favicon: _resources/LNN_Logo.png
+  image: _resources/LNN_Logo.png
+
+  navbar:
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Publications   
+        href: publications.qmd
+      - text: Talks
+        href: talks.qmd
+      - text: Courses
+        href: courses.qmd
+      - text: Fun R Things
+        href: fun-r.qmd
+      - text: Stats Comics
+        href: comics.qmd
+      - text: Microblogs
+        href: microblogs.qmd
+
+    right:
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/lucy-njoki/"
+      - icon: github
+        href: "https://github.com/LucyNjoki"
+      - icon: bluesky
+        href: "https://bsky.app/profile/njokinjuki.bsky.social"
+      - text: "<img src='_resources/researchgate.png' width='18' height='18'>"
+        href: "https://www.researchgate.net/profile/Lucy-Njuki"
+      - text: "<img src='_resources/Google_Scholar_logo.png' width='18' height='18'>"
+        href: "https://scholar.google.com/citations?user=R1SNin0AAAAJ&hl=en"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+    
+editor: visual

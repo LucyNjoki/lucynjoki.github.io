@@ -1,0 +1,11 @@
+- title: "R can help choose dinner 🍽️"
+  description: "Example showing how to randomly select rows of a dataframe in R."
+  year: 2023
+  link:
+    post: "https://lucynjoki.github.io/randomly-selecting-rows-of-a-dataframe/"
+
+- title: "User-defined ggplot2 function 📊"
+  description: "How to wrap ggplot construction into a reusable function."
+  year: 2023
+  link: 
+    post: "https://lucynjoki.github.io/User-defined-Function-to-Create-a-ggplot2-plot/"

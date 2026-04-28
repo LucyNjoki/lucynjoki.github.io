@@ -1,0 +1,44 @@
+- title: "Validation of primary and secondary healthcare resource use and costs estimates in OMOP-mapped vs source CPRD-HES data in the UK"
+  type: "Conference Paper"
+  authors: "Fabiano G, Njuki L, Delmestri A, Pinedo Villanueva R"
+  venue: "ISPOR 2026, Philadelphia, USA"
+  year: 2026
+  link: "https://doi.org/10.1016/j.jval.2025.09.065"
+
+- title: "Double burdened yet resilient: quality of life of caregivers of people with X-linked hypophosphatemia"
+  type: "Journal Article"
+  authors: "Pinedo-Villanueva R, Njuki L, Sanchez-Santos MT, Javaid MK"
+  venue: "JBMR Plus"
+  year: 2025
+
+- title: "Distinct clusters of carers with X-linked hypophosphataemia based on their quality of life"
+  type: "Conference Paper"
+  authors: "Njuki L, Sanchez-Santos M, Javaid MK, Pinedo Villanueva R"
+  venue: "WCO-IOF-ESCEO 2025, Rome"
+  year: 2025
+
+- title: "Primary care resource utilisation and costs of fragility fractures in postmenopausal women in the UK using CPRD data mapped to OMOP common data model"
+  type: "Conference Paper"
+  authors: "Fabiano G, Chen X, Rathod-Mistry T, Delmestri A, Njuki LN"
+  venue: "ISPE 2024, Berlin"
+  year: 2024
+
+- title: "Feasibility of a federated network analysis using real-world data mapped to OMOP common data model to estimate healthcare resource utilisation and costs of imminent subsequent fracture"
+  type: "Conference Paper"
+  authors: "Fabiano G, Chen X, Rathod-Mistry T, Delmestri A, Njuki LN"
+  venue: "ISPE 2024, Berlin"
+  year: 2024
+  
+- title: "The epidemiology of psoriatic arthritis in the UK"
+  type: "Journal Article"
+  authors: "Druce, K. L., Yimer, B. B., Humphreys, J., Njuki, L. N., et al."
+  venue: "Rheumatology"
+  year: 2023
+  
+- title: "Statistics with R - A Beginner’s Perspective"
+  type: "Book / Guide"
+  authors: "Owango, J., & Njuki, N."
+  venue: "TCC Africa"
+  year: 2021
+  link: "https://doi.org/10.21428/359fb1d2.10dfb712"
+

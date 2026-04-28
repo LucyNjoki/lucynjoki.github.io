@@ -1,0 +1,31 @@
+---
+title: "Publications"
+format: html
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis
+
+pubs <- yaml::read_yaml("data/publications.yml")
+
+# FIX: sort list correctly (no comma!)
+pubs <- pubs[order(sapply(pubs, function(x) -as.numeric(x$year)))]
+
+for (p in pubs) {
+
+  cat("### 📄 ", p$title, "\n\n")
+
+  cat(p$authors, "\n\n")
+
+  cat("*", p$type, " • ", p$venue, " • ", p$year, "*\n\n", sep="")
+
+  if (!is.null(p$link)) {
+    cat("🔗 [View publication](", p$link, ")\n\n")
+  }
+
+  cat("---\n\n")
+}
+```

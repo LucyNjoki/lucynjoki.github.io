@@ -1,0 +1,59 @@
+---
+title: Fun R Things
+format: html
+---
+
+```{r}
+#| label: render-fun_R
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis
+
+library(yaml)
+library(htmltools)
+
+# Read YAML data
+items <- yaml::read_yaml("data/fun_r.yml")
+
+# Build cards
+cards <- lapply(items, function(row){
+
+  links <- row[["links"]]
+  link_nodes <- list()
+
+  # Build links (emoji comes from YAML key)
+  if (!is.null(links)) {
+    for (nm in names(links)) {
+      url <- links[[nm]]
+
+      if (!is.null(url) && nzchar(url)) {
+        link_nodes <- c(
+          link_nodes,
+          tags$a(
+            nm,                      # 👈 text from YAML (already has emoji)
+            href = url,
+            target = "_blank"
+          )
+        )
+      }
+    }
+  }
+
+  # Card layout
+  tags$div(
+    class = "card",
+    tags$div(
+      tags$h3(row[["title"]]),
+      tags$div(class = "meta", row[["type"]])
+    ),
+    tags$p(row[["description"]]),
+    tags$div(class = "links", link_nodes)
+  )
+})
+
+# Render all cards
+div(class = "card-grid", cards)
+
+```
+

@@ -1,0 +1,31 @@
+---
+title: ""
+format: html
+---
+
+<div class="hero">
+  <img src="_resources/LNN_Logo.png" class="logo-hex" width="160">
+</div>
+
+## 👋🏿 About me
+
+I am a Data Analyst at the University of Oxford, working with large-scale clinical and electronic health record (EHR) data to support reproducible research and evidence generation in healthcare. I have over seven years of experience working with complex health datasets, developing transparent analytical workflows, and producing statistical outputs for research and reporting.
+
+My work focuses on building reproducible pipelines in R for data ingestion, cleaning, validation, and analysis. I am particularly interested in ensuring that analytical processes are well-documented, scalable, and interpretable. I have experience working with multi-table healthcare data structures and relational datasets, and I am comfortable translating these into structured workflows and database queries.
+
+Alongside my professional role, I am currently pursuing an MSc in Statistics and Data Science (Biostatistics). My academic and applied work increasingly intersects with artificial intelligence, including developing Shiny applications and experimenting with LLM-powered tools to enhance data interaction and usability.
+
+Beyond my technical work, I am an active contributor to the R community. I co-organise community initiatives and enjoy creating resources that make data science more accessible, including teaching materials, small R projects, and visual explanations of statistical concepts.
+
+---
+
+## 🔍 What you’ll find on this site
+
+This website brings together different aspects of my work:
+
+- 📄 **Publications** — research outputs including journal articles and conference papers  
+- 🎤 **Talks** — conference presentations, workshops, and community talks  
+- 📚 **Courses** — training and teaching materials in R and statistics  
+- 💻 **Fun R Things** — small projects, experiments, and creative coding work  
+- 🎨 **Stats Comics** — visual explanations of statistical ideas  
+- ✍🏽 **Microblogs** — short posts with practical R tips and insights  

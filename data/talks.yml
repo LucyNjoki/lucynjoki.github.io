@@ -1,0 +1,40 @@
+- title: "🎬 LGBTQ+ Movies Dataset & Analysis"
+  event: "Collaboration Data Project"
+  year: 2026
+  location: "🌍 Online"
+  description: "Exploration of LGBTQ+ representation in movies using R."
+  links:
+    repo: "https://github.com/LucyNjoki/LGBTQ-Movies"
+    slides: "https://lucynjoki.github.io/LGBTQ-Movies/"
+  tags: ["📊 data", "R", "🌈 LGBTQ+"]
+
+- title: "🎨 R for Play – Manchester R User Group"
+  event: "👩🏽‍💻 Manchester R User Group"
+  year: 2025
+  location: "📍 Manchester, UK"
+  description: "Interactive session exploring playful and creative uses of R."
+  links:
+    repo: "https://github.com/LucyNjoki/R-For-Play_ManchesterRUG"
+    slides: "https://lucynjoki.github.io/R-For-Play_ManchesterRUG/"
+  tags: ["R", "🤝 community", "🎉 fun"]
+
+- title: "📊 Publication Ready Tables - User-defined functions"
+  event: "🎤 R User Group University of Manchester"
+  year: 2023
+  location: "📍 Manchester, UK"
+  description: "How to create publication-ready summary tables with reusable R functions."
+  links:
+    slides: "https://github.com/LucyNjoki/R.U.M-publication-ready-tables/"
+    page: "https://lucynjuki.github.io/R.U.M-publication-ready-tables/"
+  tags: ["R", "📋 tables", "🎓 teaching"]
+
+- title: "📈 Making Project Management Seamless"
+  event: "🎤 ShinyConf 2023"
+  year: 2023
+  location: "🌍 Online"
+  description: "Gantt chart + shiny app demo for lightweight project management."
+  links:
+    demo: "https://lucy-njuki.shinyapps.io/Gantt_Chart_ShinyConfy2023/"
+    repo: "https://github.com/LucyNjoki/Shiny-Confy-2023"
+    recording: "https://youtu.be/Gyc_hp-r7qc"
+  tags: ["⚡ Shiny", "📊 project-management"]

@@ -1,0 +1,65 @@
+---
+title: Microblogs
+format: html
+---
+
+```{r}
+#| label: render-microblogs
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis   # 👈 ensures markdown is rendered correctly
+
+library(yaml)
+library(dplyr)
+library(purrr)
+
+microblogs_df <- "data/microblogs.yml"
+
+# read YAML and convert to data frame
+posts <- yaml::read_yaml(microblogs_df) %>%
+  purrr::map_dfr(as.list)
+
+# sort by year (latest first)
+posts <- arrange(posts, desc(posts$year))
+
+# helper: extract URL from nested list (link$post)
+get_url <- function(x) {
+  if (is.character(x) && length(x) == 1 && nzchar(x)) return(x)
+
+  if (is.list(x)) {
+    if (!is.null(x$post) && is.character(x$post)) return(x$post[[1]])
+
+    # fallback: take first usable value
+    flat <- unlist(x)
+    flat <- as.character(flat)
+    flat <- flat[nzchar(flat)]
+    if (length(flat) > 0) return(flat[[1]])
+  }
+
+  NULL
+}
+
+# print microblogs
+for (i in seq_len(nrow(posts))) {
+
+  title_i <- posts$title[i]
+  year_i <- posts$year[i]
+  desc_i <- posts$description[i]
+
+  url_i <- get_url(posts$link[i])
+
+  # ✨ emoji added here
+  cat("### ✨ ", title_i, "\n\n")
+
+  cat("📅 *", year_i, "*\n\n")
+
+  cat(desc_i, "\n\n")
+
+  if (!is.null(url_i)) {
+    cat("🔗 [Read more](", url_i, "){target=\"_blank\"}\n\n")
+  }
+
+  cat("---\n\n")
+}
+```

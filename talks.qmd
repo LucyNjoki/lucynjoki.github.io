@@ -1,0 +1,84 @@
+---
+title: Talks
+format: html
+---
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis
+
+library(yaml)
+
+# Read talks data
+talks <- yaml::read_yaml("data/talks.yml")
+
+# Loop through each talk
+for (talk in talks) {
+
+  # Title
+  cat("### ", talk$title, "\n\n")
+
+  # Metadata (event • location • year)
+  meta <- talk$event
+
+  if (!is.null(talk$location)) {
+    meta <- paste(meta, talk$location, sep = " • ")
+  }
+
+  if (!is.null(talk$year)) {
+    meta <- paste(meta, talk$year, sep = " • ")
+  }
+
+  cat(meta, "\n\n")
+
+  # Description
+  if (!is.null(talk$description)) {
+    cat(talk$description, "\n\n")
+  }
+
+  # Links
+  if (!is.null(talk$links)) {
+
+    cat("**Links:** ")
+
+    link_names <- names(talk$links)
+
+    for (i in seq_along(link_names)) {
+
+      nm <- link_names[i]
+      url <- talk$links[[nm]]
+
+      # Icon mapping
+      icon <- switch(tolower(nm),
+        "repo" = "💻",
+        "slides" = "📑",
+        "demo" = "🚀",
+        "recording" = "🎥",
+        "page" = "🌐",
+        "🔗"
+      )
+
+      if (!is.null(url) && nzchar(url)) {
+        cat(icon, " [", toupper(nm), "](", url, ")", sep="")
+
+        # Add separator only if not last
+        if (i < length(link_names)) {
+          cat(" · ")
+        }
+      }
+    }
+
+    cat("\n\n")
+  }
+
+  # Tags
+  if (!is.null(talk$tags)) {
+    cat("*Tags:* ", paste(talk$tags, collapse = ", "), "\n\n")
+  }
+
+  # Divider
+  cat("---\n\n")
+}
+```

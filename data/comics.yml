@@ -1,0 +1,11 @@
+- title: "Stats Comic: Overfitting"
+  file: "_resources/comic-overfit-vibrant.jpg"
+  thumb: "_resources/comic-overfit-vibrant-thumb.jpg"
+  caption: "Generalisation saves the day!"
+  year: 2024
+
+- title: "Stats Comic: P-value"
+  file: "_resources/comic-pvalue-vibrant.jpg"
+  thumb: "_resources/comic-pvalue-vibrant-thumb.jpg"
+  caption: "Statistics needs context."
+  year: 2024

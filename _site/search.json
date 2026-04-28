@@ -1,0 +1,128 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Lucy Njoki Njuki",
+    "section": "",
+    "text": "I am Lucy Njoki Njuki, currently employed as a Data Analyst at the NDORMS, University of Oxford.\nI am a part-time MSc student (Biostatistics) at Hasselt University. I contribute to the R community and co-organise R-Ladies Remote."
+  },
+  {
+    "objectID": "index.html#quick-links",
+    "href": "index.html#quick-links",
+    "title": "Lucy Njoki Njuki",
+    "section": "Quick links",
+    "text": "Quick links\n\nLinkedIn\nGitHub\nBluesky\nGoogle Scholar"
+  },
+  {
+    "objectID": "fun-r.html",
+    "href": "fun-r.html",
+    "title": "Fun R Things",
+    "section": "",
+    "text": "Random Dinner picker (R demo)\nmini-demo\n\nSmall R snippet to randomly pick rows - for fun.\n🔗 📝 POST\n\n\n\nUser-defined ggplot2 function\ngist\n\nReusable function to make ggplot2 plots quickly.\n🔗 📝 POST"
+  },
+  {
+    "objectID": "comics.html",
+    "href": "comics.html",
+    "title": "Stats Comics",
+    "section": "",
+    "text": "Stats Comic: Overfitting\n\n2024\nGeneralisation saves the day!\n\n\n\n\n\n\nStats Comic: P-value\n\n2024\nStatistics needs context."
+  },
+  {
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "🎬 LGBTQ+ Movies Dataset & Analysis\nCollaboration Data Project • 🌍 Online • 2026\nExploration of LGBTQ+ representation in movies using R.\nLinks: 💻 REPO · 📑 SLIDES\nTags: 📊 data, R, 🌈 LGBTQ+\n\n\n\n🎨 R for Play – Manchester R User Group\n👩🏽‍💻 Manchester R User Group • 📍 Manchester, UK • 2025\nInteractive session exploring playful and creative uses of R.\nLinks: 💻 REPO · 📑 SLIDES\nTags: R, 🤝 community, 🎉 fun\n\n\n\n📊 Publication Ready Tables - User-defined functions\n🎤 R User Group University of Manchester • 📍 Manchester, UK • 2023\nHow to create publication-ready summary tables with reusable R functions.\nLinks: 📑 SLIDES · 🌐 PAGE\nTags: R, 📋 tables, 🎓 teaching\n\n\n\n📈 Making Project Management Seamless\n🎤 ShinyConf 2023 • 🌍 Online • 2023\nGantt chart + shiny app demo for lightweight project management.\nLinks: 🚀 DEMO · 💻 REPO · 🎥 RECORDING\nTags: ⚡ Shiny, 📊 project-management"
+  },
+  {
+    "objectID": "microblogs.html",
+    "href": "microblogs.html",
+    "title": "Microblogs",
+    "section": "",
+    "text": "✨ R can help choose dinner 🍽️\n📅 * 2023 *\nExample showing how to randomly select rows of a dataframe in R.\n🔗 Read more\n\n\n\n✨ User-defined ggplot2 function 📊\n📅 * 2023 *\nHow to wrap ggplot construction into a reusable function.\n🔗 Read more"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "courses.html",
+    "href": "courses.html",
+    "title": "Courses & Training",
+    "section": "",
+    "text": "Data Manipulation with data.table in R\nInstructor • 2023\nHands-on workshop covering fast data manipulation with data.table.\nSLIDES | RECORDING |\nTags: data.table, workshop\n\n\n\nIntro to Biostatistics\nAttendee • 2022\nShort course on foundational biostatistics.\nSLIDES | RECORDING |\nTags: biostatistics, short-course"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "📄 Validation of primary and secondary healthcare resource use and costs estimates in OMOP-mapped vs source CPRD-HES data in the UK\nFabiano G, Njuki L, Delmestri A, Pinedo Villanueva R\nConference Paper • ISPOR 2026, Philadelphia, USA • 2026\n🔗 View publication\n\n\n\n📄 Double burdened yet resilient: quality of life of caregivers of people with X-linked hypophosphatemia\nPinedo-Villanueva R, Njuki L, Sanchez-Santos MT, Javaid MK\nJournal Article • JBMR Plus • 2025\n\n\n\n📄 Distinct clusters of carers with X-linked hypophosphataemia based on their quality of life\nNjuki L, Sanchez-Santos M, Javaid MK, Pinedo Villanueva R\nConference Paper • WCO-IOF-ESCEO 2025, Rome • 2025\n\n\n\n📄 Primary care resource utilisation and costs of fragility fractures in postmenopausal women in the UK using CPRD data mapped to OMOP common data model\nFabiano G, Chen X, Rathod-Mistry T, Delmestri A, Njuki LN\nConference Paper • ISPE 2024, Berlin • 2024\n\n\n\n📄 Feasibility of a federated network analysis using real-world data mapped to OMOP common data model to estimate healthcare resource utilisation and costs of imminent subsequent fracture\nFabiano G, Chen X, Rathod-Mistry T, Delmestri A, Njuki LN\nConference Paper • ISPE 2024, Berlin • 2024\n\n\n\n📄 The epidemiology of psoriatic arthritis in the UK\nDruce, K. L., Yimer, B. B., Humphreys, J., Njuki, L. N., et al. \nJournal Article • Rheumatology • 2023\n\n\n\n📄 Statistics with R - A Beginner’s Perspective\nOwango, J., & Njuki, N.\nBook / Guide • TCC Africa • 2021\n🔗 View publication"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Lucy Njoki Njuki",
+    "section": "👋🏿 About me",
+    "text": "👋🏿 About me\nI am a Data Analyst at the University of Oxford, working with large-scale clinical and electronic health record (EHR) data to support reproducible research and evidence generation in healthcare. I have over seven years of experience working with complex health datasets, developing transparent analytical workflows, and producing statistical outputs for research and reporting.\nMy work focuses on building reproducible pipelines in R for data ingestion, cleaning, validation, and analysis. I am particularly interested in ensuring that analytical processes are well-documented, scalable, and interpretable. I have experience working with multi-table healthcare data structures and relational datasets, and I am comfortable translating these into structured workflows and database queries.\nAlongside my professional role, I am currently pursuing an MSc in Statistics and Data Science (Biostatistics). My academic and applied work increasingly intersects with artificial intelligence, including developing Shiny applications and experimenting with LLM-powered tools to enhance data interaction and usability.\nBeyond my technical work, I am an active contributor to the R community. I co-organise community initiatives and enjoy creating resources that make data science more accessible, including teaching materials, small R projects, and visual explanations of statistical concepts."
+  },
+  {
+    "objectID": "index.html#what-youll-find-on-this-site",
+    "href": "index.html#what-youll-find-on-this-site",
+    "title": "Lucy Njoki Njuki",
+    "section": "🔍 What you’ll find on this site",
+    "text": "🔍 What you’ll find on this site\nThis website brings together different aspects of my work:\n\n📄 Publications — research outputs including journal articles and conference papers\n\n🎤 Talks — conference presentations, workshops, and community talks\n\n📚 Courses — training and teaching materials in R and statistics\n\n💻 Fun R Things — small projects, experiments, and creative coding work\n\n🎨 Stats Comics — visual explanations of statistical ideas\n\n✍🏽 Microblogs — short posts with practical R tips and insights"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "A selection of my data science, R projects, and creative work."
+  },
+  {
+    "objectID": "projects.html#projects",
+    "href": "projects.html#projects",
+    "title": "Projects",
+    "section": "",
+    "text": "A selection of my data science, R projects, and creative work.\n\n\n\n\n\n\n\nmini-demo *\n\nSmall R snippet to randomly pick rows - for fun.\n🔗 📝 POST\n\n\n\n\n\ngist *\n\nReusable function to make ggplot2 plots quickly.\n🔗 📝 POST\n\n\n\n\n\n\n\n\nGeneralisation saves the day!\n\n\n\n\n\nStatistics needs context.\n\n\n\n\n\n\n\n\n2023 *\n\nExample showing how to randomly select rows of a dataframe in R.\n🔗 Read more\n\n\n\n\n\n2023 *\n\nHow to wrap ggplot construction into a reusable function.\n🔗 Read more"
+  },
+  {
+    "objectID": "projects.html#fun-r-things",
+    "href": "projects.html#fun-r-things",
+    "title": "Projects",
+    "section": "💻 Fun R Things",
+    "text": "💻 Fun R Things\n\n\nRandom Dinner picker (R demo)\nSmall R snippet to randomly pick rows - for fun.\n\na\nhttps://github.com/LucyNjoki/randomly-selecting-rows-of-a-dataframe/\n_blank\n📝 post\n\n\n\nUser-defined ggplot2 function\nReusable function to make ggplot2 plots quickly.\n\na\nhttps://lucynjuki.github.io/User-defined-Function-to-Create-a-ggplot2-plot/\n_blank\n📝 post"
+  },
+  {
+    "objectID": "projects.html#stats-comics",
+    "href": "projects.html#stats-comics",
+    "title": "Projects",
+    "section": "🎨 Stats Comics",
+    "text": "🎨 Stats Comics\n\n\n\n\n\nStats Comic: Overfitting\n\nGeneralisation saves the day!\n\n\nStats Comic: P-value\n\nStatistics needs context."
+  },
+  {
+    "objectID": "projects.html#microblogs",
+    "href": "projects.html#microblogs",
+    "title": "Projects",
+    "section": "✍🏽 Microblogs",
+    "text": "✍🏽 Microblogs\n\n\n\n\n\nR can help choose dinner 🍽️\nExample showing how to randomly select rows of a dataframe in R.\n\na\nhttps://lucynjoki.github.io/randomly-selecting-rows-of-a-dataframe/\n_blank\nRead more\n\n\n\nUser-defined ggplot2 function 📊\nHow to wrap ggplot construction into a reusable function.\n\na\nhttps://lucynjoki.github.io/User-defined-Function-to-Create-a-ggplot2-plot/\n_blank\nRead more"
+  },
+  {
+    "objectID": "talks.html#talks-conferences",
+    "href": "talks.html#talks-conferences",
+    "title": "Talks",
+    "section": "🎤 Talks & Conferences",
+    "text": "🎤 Talks & Conferences\n\n\n🎬 LGBTQ+ Movies Dataset & Analysis\nCollaboration Data Project • 🌍 Online • 2026\nExploration of LGBTQ+ representation in movies using R.\n\na\nhttps://github.com/LucyNjoki/LGBTQ-Movies\n_blank\nrepo\n\nTags: 📊 data, 🧠 R, 🌈 LGBTQ+\n\n\n🎨 R for Play – Manchester R User Group\n👩🏽‍💻 Manchester R User Group • 📍 Manchester, UK • 2025\nInteractive session exploring playful and creative uses of R.\n\na\nhttps://github.com/LucyNjoki/R-For-Play_ManchesterRUG\n_blank\nrepo\n\nTags: 🧠 R, 🤝 community, 🎉 fun\n\n\n📊 Publication Ready Tables - User-defined functions\n🎤 R User Group University of Manchester • 📍 Manchester, UK • 2023\nHow to create publication-ready summary tables with reusable R functions.\n\na\nhttps://github.com/LucyNjoki/R.U.M-publication-ready-tables/\n_blank\nslides\na\nhttps://lucynjuki.github.io/R.U.M-publication-ready-tables/\n_blank\npage\n\nTags: 🧠 R, 📋 tables, 🎓 teaching\n\n\n📈 Making Project Management Seamless\n🎤 ShinyConf 2023 • 🌍 Online • 2023\nGantt chart + shiny app demo for lightweight project management.\n\na\nhttps://lucy-njuki.shinyapps.io/Gantt_Chart_ShinyConfy2023/\n_blank\ndemo\na\nhttps://github.com/LucyNjoki/Shiny-Confy-2023\n_blank\nrepo\na\nhttps://youtu.be/Gyc_hp-r7qc\n_blank\nrecording\n\nTags: ⚡ Shiny, 📊 project-management"
+  },
+  {
+    "objectID": "talks.html#courses-training",
+    "href": "talks.html#courses-training",
+    "title": "Talks",
+    "section": "🎓 Courses & Training",
+    "text": "🎓 Courses & Training\n\n\nData Manipulation with data.table in R\nInstructor • 2023\nHands-on workshop covering fast data manipulation with data.table.\n\na\nhttps://github.com/LucyNjoki/R-LadiesAbuja_Data-Manipulation-with-data.table-in-R\n_blank\nslides\na\nhttps://youtu.be/3jp8cCV6oMg\n_blank\nrecording\n\nTags: data.table, workshop\n\n\nStatistics with R - A Beginner's Perspective\nInstructor • 2022\nIntro to foundational statistics.\n\na\nhttps://tccafrica.pubpub.org/pub/h8e4xebo/release/1\n_blank\nslides\na\nhttps://tccafrica.pubpub.org/pub/h8e4xebo/release/1\n_blank\nrecording\n\nTags: biostatistics, short-course"
+  }
+]

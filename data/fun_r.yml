@@ -1,0 +1,13 @@
+- title: "Random Dinner picker (R demo)"
+  type: "mini-demo"
+  description: "Small R snippet to randomly pick rows - for fun."
+  links:
+    "📝 post": "https://github.com/LucyNjoki/randomly-selecting-rows-of-a-dataframe/"
+  tags: ["demo","fun"]
+
+- title: "User-defined ggplot2 function"
+  type: "gist"
+  description: "Reusable function to make ggplot2 plots quickly."
+  links:
+    "📝 post": "https://lucynjuki.github.io/User-defined-Function-to-Create-a-ggplot2-plot/"
+  tags: ["ggplot2","functions"]

@@ -1,0 +1,36 @@
+---
+title: Stats Comics
+format: html
+---
+
+```{r}
+#| label: render-comic
+#| echo: false
+#| message: false
+#| warning: false
+
+
+library(yaml)
+library(purrr)
+library(htmltools)
+
+comics_df <- "data/comics.yml"
+
+comics <- yaml::read_yaml(comics_df)
+nodes <- lapply(comics, function(c) {
+  tags$div(
+  class="card",
+  tags$a(
+    href = c$file,
+    target = "_blank",
+    tags$img(src = c$thumb, class = "comic-thumb", alt = c$title)
+    ),
+  tags$div(tags$h3(c$title)),
+  tags$div(class="meta", paste0(if (!is.null(c$year)) c$year else "")),
+  if (!is.null(c$caption)) tags$p(c$caption)
+    )
+  })
+
+div(class="card-grid", nodes)
+
+```

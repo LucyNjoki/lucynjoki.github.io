@@ -1,0 +1,111 @@
+---
+title: Projects
+format:
+  html:
+    toc: true
+    toc-location: right
+---
+
+A selection of my data science, R projects, and creative work.
+
+## 💻 Fun R Things
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis
+
+library(yaml)
+library(htmltools)
+
+render_card <- function(title, desc, links=NULL) {
+
+  link_nodes <- list()
+
+  if (!is.null(links)) {
+    for (nm in names(links)) {
+      url <- links[[nm]]
+      link_nodes <- c(
+        link_nodes,
+        tags$a(nm, href = url, target = "_blank")
+      )
+    }
+  }
+
+  tags$div(
+    class = "card",
+    tags$h3(title),
+    tags$p(desc),
+    tags$div(class = "links", link_nodes)
+  )
+}
+
+fun <- yaml::read_yaml("data/fun_r.yml")
+
+fun_cards <- lapply(fun, function(f) {
+  render_card(f$title, f$description, f$links)
+})
+
+tags$div(class = "card-grid", fun_cards)
+```
+
+
+## 🎨 Stats Comics
+
+<div class="card-grid">
+</div>
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis
+
+library(yaml)
+library(htmltools)
+
+comics <- yaml::read_yaml("data/comics.yml")
+
+comic_cards <- lapply(comics, function(c) {
+  tags$div(
+    class = "card",
+    tags$h3(c$title),
+    tags$img(src = c$file, class = "comic-thumb"),
+    tags$p(c$caption)
+  )
+})
+
+tags$div(class = "card-grid", comic_cards)
+```
+
+
+## ✍🏽 Microblogs
+
+<div class="card-grid">
+</div>
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis
+
+library(yaml)
+library(htmltools)
+
+blogs <- yaml::read_yaml("data/microblogs.yml")
+
+blog_cards <- lapply(blogs, function(b) {
+  render_card(
+    b$title,
+    b$description,
+    list("Read more" = b$link$post)
+  )
+})
+
+tags$div(class = "card-grid", blog_cards)
+
+```
+
+
