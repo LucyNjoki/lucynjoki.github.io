@@ -13,6 +13,27 @@
 }
 
 /* =========================
+   🧠 TYPOGRAPHY (Georgia)
+========================= */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+  background: #fff0f3;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: var(--dark);
+  font-weight: 600;
+}
+
+/* Paragraph text */
+p {
+  font-size: 1.05rem;
+}
+
+/* =========================
    🌈 ANIMATED NAVBAR
 ========================= */
 .navbar {
@@ -61,7 +82,7 @@ a:hover {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 
-  background: rgba(255, 240, 243, 0.7); /* uses palette bg */
+  background: rgba(255, 240, 243, 0.7);
   border: 1px solid var(--light);
 
   padding: 16px;
@@ -92,7 +113,7 @@ a:hover {
 /* TEXT */
 .card h3 {
   margin: 0 0 8px 0;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
 }
 
 .card p {
@@ -135,13 +156,6 @@ a:hover {
 /* =========================
    🧱 GENERAL LAYOUT
 ========================= */
-body {
-  background: #fff0f3;
-}
-
-h1, h2, h3 {
-  color: var(--dark);
-}
 
 /* Gradient section headers */
 h2 {
@@ -178,6 +192,9 @@ img {
   object-fit: contain;
 }
 
+/* =========================
+   🔷 LOGO (HEXAGON)
+========================= */
 .logo-hex {
   width: 180px;
   clip-path: polygon(
