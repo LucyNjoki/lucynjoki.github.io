@@ -74,14 +74,14 @@
     "href": "fun-r.html",
     "title": "Fun R Things",
     "section": "",
-    "text": "Random Dinner picker (R demo)\nmini-demo\n\nSmall R snippet to randomly pick rows - for fun.\n\na\nhttps://github.com/LucyNjoki/randomly-selecting-rows-of-a-dataframe/\n_blank\n📝 post\n\n\n\n\nUser-defined ggplot2 function\ngist\n\nReusable function to make ggplot2 plots quickly.\n\na\nhttps://lucynjuki.github.io/User-defined-Function-to-Create-a-ggplot2-plot/\n_blank\n📝 post"
+    "text": "Random Dinner picker (R demo)\n\n\nmini-demo\n\n\n\nSmall R snippet to randomly pick rows - for fun.\n\n\n🔗 📝 POST\n\n\n\n\n\nUser-defined ggplot2 function\n\n\ngist\n\n\n\nReusable function to make ggplot2 plots quickly.\n\n\n🔗 📝 POST"
   },
   {
     "objectID": "microblogs.html",
     "href": "microblogs.html",
     "title": "Microblogs",
     "section": "",
-    "text": "✨ R can help choose dinner 🍽️\n📅 * 2023 *\nExample showing how to randomly select rows of a dataframe in R.\n🔗 Read more\n\n\n\n✨ User-defined ggplot2 function 📊\n📅 * 2023 *\nHow to wrap ggplot construction into a reusable function.\n🔗 Read more"
+    "text": "✨ R can help choose dinner 🍽️\n📅 2023 *\nExample showing how to randomly select rows of a dataframe in R.\n🔗 Read more\n\n\n\n✨ User-defined ggplot2 function 📊\n📅 2023 *\nHow to wrap ggplot construction into a reusable function.\n🔗 Read more"
   },
   {
     "objectID": "publications.html",
