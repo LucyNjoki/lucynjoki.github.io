@@ -1,0 +1,196 @@
+/* =========================
+   🌸 PALETTE (YOUR COLORS)
+========================= */
+:root {
+  --deep: #590d22;
+  --dark: #800f2f;
+  --mid: #c9184a;
+  --accent: #ff4d6d;
+  --light: #ffccd5;
+  --bg: #fff0f3;
+
+  --gradient-main: linear-gradient(90deg, #800f2f, #c9184a, #ff4d6d);
+}
+
+/* =========================
+   🌈 ANIMATED NAVBAR
+========================= */
+.navbar {
+  background: linear-gradient(270deg, #800f2f, #c9184a, #ff4d6d);
+  background-size: 400% 400%;
+  animation: gradientShift 16s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.navbar .nav-link,
+.navbar .navbar-brand {
+  color: white !important;
+}
+
+.navbar .nav-link.active {
+  font-weight: 600;
+  border-bottom: 2px solid white;
+}
+
+.navbar .nav-link:hover {
+  opacity: 0.85;
+}
+
+/* =========================
+   🔗 LINKS
+========================= */
+a {
+  color: var(--mid);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--dark);
+}
+
+/* =========================
+   🧊 GLASS CARDS
+========================= */
+.card {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  background: rgba(255, 240, 243, 0.7); /* uses palette bg */
+  border: 1px solid var(--light);
+
+  padding: 16px;
+  border-radius: 14px;
+
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 28px rgba(201, 24, 74, 0.25);
+}
+
+/* GRID */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+  gap: 18px;
+  margin: 8px 0 24px 0;
+}
+
+/* TEXT */
+.card h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.05rem;
+}
+
+.card p {
+  color: #555;
+}
+
+.card .meta {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+/* =========================
+   🔘 BUTTON LINKS
+========================= */
+.card .links {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.card .links a {
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+
+  background: var(--light);
+  color: var(--dark);
+  border: 1px solid var(--mid);
+
+  transition: all 0.2s ease;
+}
+
+.card .links a:hover {
+  background: var(--gradient-main);
+  color: white;
+}
+
+/* =========================
+   🧱 GENERAL LAYOUT
+========================= */
+body {
+  background: #fff0f3;
+}
+
+h1, h2, h3 {
+  color: var(--dark);
+}
+
+/* Gradient section headers */
+h2 {
+  background: var(--gradient-main);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* spacing */
+h3 {
+  margin-top: 1.5rem;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+/* images */
+img {
+  border-radius: 12px;
+}
+
+/* navbar icons alignment */
+.navbar .nav-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* fix custom icons */
+.navbar .nav-link img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.logo-hex {
+  width: 180px;
+  clip-path: polygon(
+    25% 5%, 75% 5%,
+    100% 50%,
+    75% 95%, 25% 95%,
+    0% 50%
+  );
+}
+
+/* Center the hero section */
+.hero {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}

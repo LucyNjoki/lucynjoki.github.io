@@ -1,0 +1,94 @@
+---
+title: "Projects"
+format: html
+---
+
+## 📦 Projects
+
+A selection of my data science, R projects, and creative work.
+
+---
+
+### 💻 Fun R Things
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis
+
+library(yaml)
+
+items <- yaml::read_yaml("data/fun_r.yml")
+
+for (row in items) {
+
+  cat("### ", row$title, "\n\n")
+  cat("*", row$type, "*\n\n")
+  cat(row$description, "\n\n")
+
+  # links
+  if (!is.null(row$links)) {
+    for (nm in names(row$links)) {
+      url <- row$links[[nm]]
+      cat("🔗 [", toupper(nm), "](", url, ")\n\n", sep="")
+    }
+  }
+
+  cat("---\n\n")
+}
+```
+
+### 🎨 Stats Comics
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis
+
+comics <- yaml::read_yaml("data/comics.yml")
+
+for (c in comics) {
+
+  cat("### ", c$title, "\n\n")
+
+  # image
+  cat("![](", c$file, ")\n\n", sep="")
+
+  # caption
+  if (!is.null(c$caption)) {
+    cat(c$caption, "\n\n")
+  }
+
+  cat("---\n\n")
+}
+```
+
+### ✍🏽 Microblogs
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+#| results: asis
+
+posts <- yaml::read_yaml("data/microblogs.yml")
+
+for (p in posts) {
+
+  cat("### ✨ ", p$title, "\n\n")
+
+  cat("*", p$year, "*\n\n")
+
+  cat(p$description, "\n\n")
+
+  # link (your structure uses link$post)
+  if (!is.null(p$link$post)) {
+    cat("🔗 [Read more](", p$link$post, ")\n\n", sep="")
+  }
+
+  cat("---\n\n")
+}
+```
+
