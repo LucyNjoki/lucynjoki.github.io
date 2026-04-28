@@ -5,6 +5,7 @@ website:
   title: "Lucy Njoki Njuki"
   favicon: _resources/LNN_Logo.png
   image: _resources/LNN_Logo.png
+  site-url: https://lucynjokinjuki.github.io
 
   navbar:
     left:
